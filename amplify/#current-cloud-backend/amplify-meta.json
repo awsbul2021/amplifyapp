@@ -19,11 +19,6 @@
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
       "customAuth": false,
-      "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyapp-dev-220339-deployment/amplify-cfn-templates/auth/amplifyapp591915b8-cloudformation-template.yml",
-        "logicalId": "authamplifyapp591915b8"
-      },
-      "lastPushTimeStamp": "2021-06-16T13:10:24.442Z",
       "output": {
         "UserPoolId": "ap-northeast-1_WPcWqsPK8",
         "AppClientIDWeb": "2lu6b734p7e1d89uja66crqock",
@@ -33,7 +28,38 @@
         "IdentityPoolName": "amplifyapp591915b8_identitypool_591915b8__dev",
         "UserPoolName": "amplifyapp591915b8_userpool_591915b8"
       },
-      "lastPushDirHash": "4T3g9sSiY6DvoCTZMg3ncQFt470="
+      "lastPushTimeStamp": "2021-06-17T12:41:23.757Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyapp-dev-220339-deployment/amplify-cfn-templates/auth/amplifyapp591915b8-cloudformation-template.yml",
+        "logicalId": "authamplifyapp591915b8"
+      }
+    }
+  },
+  "api": {
+    "notesapp": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7,
+              "description": "demo"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        },
+        "GraphQLAPIIdOutput": "zmovsocysje23m5heol6z7i7wu",
+        "GraphQLAPIEndpointOutput": "https://kvp5oatvf5dpdd4ags6xowib4e.appsync-api.ap-northeast-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-z62gddv7cfatfdljzhbzzwfxsu"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyapp-dev-220339-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apinotesapp"
+      },
+      "lastPushTimeStamp": "2021-06-17T12:41:25.929Z",
+      "lastPushDirHash": "/LlqgbaSl89s9PMy2b1RGK/Bceg="
     }
   }
 }

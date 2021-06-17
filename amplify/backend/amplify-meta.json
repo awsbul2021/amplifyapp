@@ -9,7 +9,8 @@
       "UnauthRoleName": "amplify-amplifyapp-dev-220339-unauthRole",
       "StackName": "amplify-amplifyapp-dev-220339",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:338825666177:stack/amplify-amplifyapp-dev-220339/457aa9f0-cea3-11eb-b2c3-06689a7cb845",
-      "AmplifyAppId": "d1sphk0zubwzvo"
+      "AmplifyAppId": "d1sphk0zubwzvo",
+      "AuthTriggerTemplateURL": ""
     }
   },
   "auth": {
@@ -27,7 +28,7 @@
         "IdentityPoolName": "amplifyapp591915b8_identitypool_591915b8__dev",
         "UserPoolName": "amplifyapp591915b8_userpool_591915b8"
       },
-      "lastPushTimeStamp": "2021-06-16T15:14:16.864Z",
+      "lastPushTimeStamp": "2021-06-17T12:41:23.757Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyapp-dev-220339-deployment/amplify-cfn-templates/auth/amplifyapp591915b8-cloudformation-template.yml",
         "logicalId": "authamplifyapp591915b8"
@@ -48,8 +49,17 @@
             }
           },
           "additionalAuthenticationProviders": []
-        }
-      }
+        },
+        "GraphQLAPIIdOutput": "zmovsocysje23m5heol6z7i7wu",
+        "GraphQLAPIEndpointOutput": "https://kvp5oatvf5dpdd4ags6xowib4e.appsync-api.ap-northeast-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-z62gddv7cfatfdljzhbzzwfxsu"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyapp-dev-220339-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apinotesapp"
+      },
+      "lastPushTimeStamp": "2021-06-17T12:41:25.929Z",
+      "lastPushDirHash": "/LlqgbaSl89s9PMy2b1RGK/Bceg="
     }
   }
 }
