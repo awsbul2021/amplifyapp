@@ -28,7 +28,7 @@
         "IdentityPoolName": "amplifyapp591915b8_identitypool_591915b8__dev",
         "UserPoolName": "amplifyapp591915b8_userpool_591915b8"
       },
-      "lastPushTimeStamp": "2021-06-17T12:41:23.757Z",
+      "lastPushTimeStamp": "2021-06-17T12:50:57.639Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyapp-dev-220339-deployment/amplify-cfn-templates/auth/amplifyapp591915b8-cloudformation-template.yml",
         "logicalId": "authamplifyapp591915b8"
@@ -58,14 +58,24 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyapp-dev-220339-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apinotesapp"
       },
-      "lastPushTimeStamp": "2021-06-17T12:41:25.929Z",
-      "lastPushDirHash": "/LlqgbaSl89s9PMy2b1RGK/Bceg="
+      "lastPushTimeStamp": "2021-06-17T12:51:00.033Z",
+      "lastPushDirHash": "bHUeVCIYz2ZlunhtvayYhZxRvrA="
     }
   },
   "storage": {
     "s38facd823": {
       "service": "S3",
-      "providerPlugin": "awscloudformation"
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyapp-dev-220339-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+        "logicalId": "storages38facd823"
+      },
+      "lastPushTimeStamp": "2021-06-17T12:51:00.033Z",
+      "output": {
+        "BucketName": "amplifyapp663f0f40d9d64513ade6e54081caa054220339-dev",
+        "Region": "ap-northeast-1"
+      },
+      "lastPushDirHash": "tPSiC3pGby2zoNy/7csoMEi0s74="
     }
   }
 }
