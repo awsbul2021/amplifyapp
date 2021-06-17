@@ -24,5 +24,11 @@
         }
       }
     }
+  },
+  "storage": {
+    "s38facd823": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
   }
 }
